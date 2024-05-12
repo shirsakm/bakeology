@@ -1,0 +1,5 @@
+# ignore the lock file as reccomended by jekyll docs
+Gemfile.lock
+
+# ignore the directory with build files
+_site/
