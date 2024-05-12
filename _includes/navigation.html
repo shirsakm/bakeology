@@ -1,0 +1,13 @@
+<nav>
+    <div class="logo">
+        <img src="/assets/images/logo.png" width="100vw" />
+        <img src="/assets/images/logo_text.png" height="100vh" />
+    </div>
+    <div class="buttons">
+        {% for item in site.data.navigation %}
+            <div class="button {% if page.url == item.link %} current {% endif %}">
+                <a href="{{ item.link }}"> {{ item.name }} </a>
+            </div>
+        {% endfor %}
+    </div>
+</nav>

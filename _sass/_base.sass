@@ -1,0 +1,60 @@
+// imports Oswald font for navigation bar
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap')
+
+// imports Fira Sans for body
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+$nav-font: Oswald, "sans serif"
+$primary-font: "Fira Sans", "Times New Roman"
+$primary: #ffdce4
+$accent: #f9aabb
+$background: #f9ecd3
+
+/* html
+    background-color: $background */     
+nav
+    display: flex
+    border-radius: 15px
+    width: 100%
+    background-color: $primary
+
+.logo
+    width: 1
+
+.buttons
+    flex: 1
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    font-family: $nav-font
+    font-size: 20px
+
+.button
+    width: 8%
+    text-align: center
+    padding: 3%
+
+.current
+    border-radius: 15px
+    background-color: $accent
+
+.showcase
+    display: flex
+    padding-top: 5%
+
+.showcase > img
+    width: 30%
+    border-radius: 15px
+    padding-left: 2%
+    padding-right: 2%
+
+.introduction-text
+    flex: 1
+    padding-left: 5%
+    padding-right: 5%
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    font-family: $primary-font
+    font-size: 3vh
+    text-align: justify

@@ -3,3 +3,8 @@ Gemfile.lock
 
 # ignore the directory with build files
 _site/
+
+# ignore cache and metadata
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata/
