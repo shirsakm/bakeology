@@ -1,8 +1,14 @@
 - name: HOME
   link: /
 
-- name: ABOUT
-  link: /about.html
+- name: BLOG
+  link: /blog
 
 - name: CATALOGUE
-  link: /catalogue.html
+  link: /catalogue
+
+- name: SHOWCASE
+  link: /showcase
+
+- name: ABOUT
+  link: /about

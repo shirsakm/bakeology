@@ -1,0 +1,11 @@
+- name: Bento Cakes
+  path: /images/showcase/bento.jpg
+
+- name: Cakes
+  path: /images/showcase/cake.jpg
+
+- name: Donuts
+  path: /images/showcase/donut.jpg
+
+- name: Muffins
+  path: /images/showcase/muffin.jpg

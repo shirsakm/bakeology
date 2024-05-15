@@ -1,0 +1,20 @@
+# site settings
+title: Bakeology
+description: A website dedicated to the art of baking, featuring recipes, tips, and inspiration for all baking enthusiasts.
+
+# build settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# include the _pages directory in the build
+include:
+  - _pages
+
+
+# exclude files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .git
+  - .gitignore

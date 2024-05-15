@@ -3,27 +3,36 @@ layout: default
 title: Home
 ---
 
+<div class="introduction">
+  <div class="introduction-text">
+    <h1>Bakeology!~</h1>
+    <div>
+      <p>
+        Stepping into Kolkata and yearning for a taste of pure indulgence? Look
+        no further than Bakeology, your haven for handcrafted happiness! We're
+        all about delectable treats made with passion, using the freshest local
+        ingredients. From melt-in-your-mouth cookies in a variety of flavors to
+        adorable, single-serving bento cakes perfect for personal celebrations,
+        Bakeology offers something to tantalize every taste bud. We also feature
+        irresistible donuts–light, fluffy dough bursting with flavor–a perfect
+        way to satisfy your donut cravings!
+      </p>
+      <p>
+        From classic cookies to whimsical bento cakes, Bakeology has it all.
+        Visit us or order online for delivery or pick-up. We make indulging easy
+        and delightful. Come experience Bakeology–your sweet escape!
+      </p>
+    </div>
+  </div>
 
+  <img src="/assets/images/introduction.jpg" />
+
+  <!-- Add padding to separate the image from the side -->
+  <div style="padding: 2%"></div>
+</div>
 
 <div class="showcase">
-    <div class="introduction-text">
-        <h1>Bakeology!~</h1>
-        <div class="introduction">
-            <p>
-                Stepping into Kolkata and yearning for a taste of pure indulgence?
-                Look no further than Bakeology, your haven for handcrafted happiness!
-                We're all about delectable treats made with passion, using the freshest local ingredients.
-                From melt-in-your-mouth cookies in a variety of flavors to adorable,
-                single-serving bento cakes perfect for personal celebrations,
-                Bakeology offers something to tantalize every taste bud. 
-                We also feature irresistible donuts–light, fluffy dough bursting with flavor–a perfect way to satisfy your donut cravings!
-            </p>
-            <p>
-                From classic cookies to whimsical bento cakes, Bakeology has it all.
-                Visit us or order online for delivery or pick-up.
-                We make indulging easy and delightful. Come experience Bakeology–your sweet escape!
-            </p>
-        </div>
-    </div>
-    <img src="/assets/images/showcase.jpg" />
+  {% for image in site.showcase %}
+  <img src="{{ image.path }}" class="showcase-img" />
+  {% endfor %}
 </div>
