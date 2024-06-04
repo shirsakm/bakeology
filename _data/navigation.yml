@@ -1,14 +1,14 @@
-- name: HOME
+- name: Home
   link: /
 
-- name: BLOG
+- name: Blog
   link: /blog
 
-- name: CATALOGUE
+- name: Catalogue
   link: /catalogue
 
-- name: SHOWCASE
+- name: Showcase
   link: /showcase
 
-- name: ABOUT
+- name: About
   link: /about

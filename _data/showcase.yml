@@ -1,11 +1,11 @@
-- name: Bento Cakes
-  path: /images/showcase/bento.jpg
+- name: Brave Bento Cakes
+  path: /assets/images/showcase/bento.jpg
 
-- name: Cakes
-  path: /images/showcase/cake.jpg
+- name: Cute Cakey Cakes
+  path: /assets/images/showcase/cake.jpg
 
-- name: Donuts
-  path: /images/showcase/donut.jpg
+- name: Delectable Donuts
+  path: /assets/images/showcase/donut.jpg
 
-- name: Muffins
-  path: /images/showcase/muffin.jpg
+- name: Monstrous Muffins
+  path: /assets/images/showcase/muffin.jpg

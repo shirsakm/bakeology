@@ -6,7 +6,7 @@
   <div class="buttons">
     {% for item in site.data.navigation %}
     <div class="button {% if page.url == item.link %} current {% endif %}">
-      <a href="{{ item.link }}"> {{ item.name }} </a>
+      <a href="{{ item.link }}"> {{ item.name | upcase }} </a>
     </div>
     {% endfor %}
   </div>

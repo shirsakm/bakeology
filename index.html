@@ -5,7 +5,7 @@ title: Home
 
 <div class="introduction">
   <div class="introduction-text">
-    <h1>Bakeology!~</h1>
+    <h1>Welcome to Bakeology!~</h1>
     <div>
       <p>
         Stepping into Kolkata and yearning for a taste of pure indulgence? Look
@@ -32,7 +32,29 @@ title: Home
 </div>
 
 <div class="showcase">
-  {% for image in site.showcase %}
-  <img src="{{ image.path }}" class="showcase-img" />
+  {% for image in site.data.showcase %}
+    <div class="showcase-element">
+      <img src="{{ image.path }}" class="showcase--img" />
+      <div class="showcase--text"> {{ image.name | upcase }} </div>
+    </div>
   {% endfor %}
+</div>
+
+<div class="reviews">
+  <h2>What our customers have to say</h2>
+  {% for review in site.data.reviews %}
+    <div class="review">
+      <div class="review--text"> {{ review.text }} </div>
+      <div class="review--author"> {{ review.author }} </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div>
+  <h2>Ready to indulge?</h2>
+  <p>
+    Visit us at our store or order online for delivery or pick-up. We can't
+    wait to share our passion for baking with you!
+  </p>
+  <a href="/contact" class="button">Contact us</a>
 </div>
